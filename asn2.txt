@@ -1,0 +1,28 @@
+#/////    ISP List of Game Hacker    /////
+AS5391  #Hrvatski Telekom d.d. [Croatia]
+AS8048  #CANTV Servicios, Venezuela [Venezuela]
+AS29357 #NATIONAL MOBILE TELECOMMUNICATIONS COMPANY K.S.C. (Ooredoo Kuwait) [Kuwait]
+AS7623  #Gyeongbuk Cable TV (주식회사 HCN 경북방송) [South Korea]
+# ↓↓↓  20230717  ↓↓↓
+# https://db-ip.com/country/KR
+# https://krnic.or.kr/jsp/business/management/asList.jsp
+# 상위 순위에 포함되지만 아래에 없는 ISP는 Malicious ISP list(asn1.txt)에 있다.
+#AS3559  #Korea Telecom (주식회사 KT) [South Korea]
+#AS9277  #SK Broadband Co Ltd (에스케이브로드밴드주식회사) [South Korea]
+#AS17858 #LG POWERCOMM ((주)엘지유플러스) [South Korea]
+#AS3786  #LG DACOM Corporation ((주)엘지유플러스) [South Korea]
+#AS9644  #SK Telecom (에스케이텔레콤(주)) [South Korea]
+AS9697  #LG HelloVision Corp. (주식회사 엘지헬로비전) [South Korea]
+AS9316  #DACOM-PUBNETPLUS ((주)엘지유플러스) [South Korea]
+AS6619  #SamsungSDS Inc. (삼성에스디에스(주)) [South Korea]
+AS9848  #Sejong Telecom (세종텔레콤 주식회사) [South Korea]
+AS10036 #DLIVE (주식회사 딜라이브) [South Korea]
+AS17853 #LGTELECOM ((주)엘지유플러스) [South Korea]
+AS4668  #LG CNS ((주) 엘지씨엔에스) [South Korea]
+AS136800#MOACK.Co.LTD [South Korea]
+# 20230717 한국 ISP는 대부분의 인터넷 이용자는 3대 ISP를 이용하기 때문에
+# 악성 한국 해커를 막기 위해 다른 소규모 ISP를 차단한다.
+# AS7623도 같은 경우이다.
+# ↓↓↓  20230717 23  ↓↓↓
+AS34573 #Information-Computer Center Oberon Plus, LLC [Russia]
+AS210616#SM Ltd. (SIBMEDVED) [Russia]
