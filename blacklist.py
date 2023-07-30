@@ -85,7 +85,7 @@ def get_asn():
         print("%s 파일을 찾을 수 없습니다."%file_asn_game_hacker)
         print("다음 작업을 수행합니다.")
     global blacklist
-    blacklist = blacklist + [""] + ASN1 + ASN2 + [""]
+    blacklist = blacklist + ["",""] + ASN1 + ["",""] + ASN2 + [""]
     print("모든 리스트 취합 완료. 최종 리스트 파일을 업데이트 합니다.")
 
 
@@ -104,6 +104,7 @@ def run_periodically():
             print("%s 파일을 저장하지 못했습니다."%file_name)
         print( '현재 완료 시각: ' + str(datetime.now()) )
         print( '다음 실행 시각: ' + str(datetime.now()+timedelta(seconds=sleep_time)) + '까지 대기합니다.' )
+        print( '' )
         time.sleep(sleep_time)
 
 # 주기적으로 실행하기
