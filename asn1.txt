@@ -1,26 +1,25 @@
 #/////    Malignant ISP List    /////
 #Source: https://wiki.kldp.org/wiki.php/PrivateVPN-Range
-AS9457  #DREAMLINE CO. (드림라인(주)) [South Korea]
-AS4664  #Shinbiro Onse Telecommunication Co.,Ltd. (온세텔레콤) [South Korea]
-AS9963  #BITNET ((주)비트넷 - (구) 네트로피 (Netropy)) [South Korea]
-AS46011 #LX (엘엑스(IP주소 인터넷 서비스 업체)) [South Korea]
-AS38661 #abcle (에이비클 - (구) 퍼플스톤즈 (HCLC)) [South Korea]
-AS9844  #Duruan (두루안) [South Korea]
-AS10068 #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
-AS18301 #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
-AS10048 #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
-AS38662 #JND Communication (주식회사 제이엔디통신 (JNDINFO)) [South Korea]
-AS38086 #IP4NETASKR IP4 Networks Inc. (아이이포넷 (IP4NET)) [South Korea]
-AS10195 #HAIonNet (하이온넷(주)) [South Korea]
-
+AS9457   #DREAMLINE CO. (드림라인(주)) [South Korea]
+AS4664   #Shinbiro Onse Telecommunication Co.,Ltd. (온세텔레콤) [South Korea]
+AS9963   #BITNET ((주)비트넷 - (구) 네트로피 (Netropy)) [South Korea]
+AS46011  #LX (엘엑스(IP주소 인터넷 서비스 업체)) [South Korea]
+AS38661  #abcle (에이비클 - (구) 퍼플스톤즈 (HCLC)) [South Korea]
+AS9844   #Duruan (두루안) [South Korea]
+AS10068  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS18301  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS10048  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS38662  #JND Communication (주식회사 제이엔디통신 (JNDINFO)) [South Korea]
+AS38086  #IP4NETASKR IP4 Networks Inc. (아이이포넷 (IP4NET)) [South Korea]
+AS10195  #HAIonNet (하이온넷(주)) [South Korea]
 #Source: https://www.trendmicro.com/en_us/research/17/j/a-closer-look-at-north-koreas-internet.html
-AS131279#Star Joint Venture Co. Ltd. (STAR-KP - 류경동 보통강구역) [North Korea]
-#AS9929  #CHINA UNICOM  Industrial  Internet Backbone [China]
-AS198605#AVAST Software s.r.o. [Czech Republic]
-#AS43350 #NForce Entertainment B.V. [Netherlands]
-AS51964 #ORANGE BUSINESS SERVICES U.S. Inc. [United States]
-AS50284 #IE Goroshko Evgeniy Andreevich [Russia]
-AS41653 #Aqua Ray SAS [France]
+AS131279 #Star Joint Venture Co. Ltd. (STAR-KP - 류경동 보통강구역) [North Korea]
+#AS9929   #CHINA UNICOM  Industrial  Internet Backbone [China]
+AS198605 #AVAST Software s.r.o. [Czech Republic]
+#AS43350  #NForce Entertainment B.V. [Netherlands]
+AS51964  #ORANGE BUSINESS SERVICES U.S. Inc. [United States]
+AS50284  #IE Goroshko Evgeniy Andreevich [Russia]
+AS41653  #Aqua Ray SAS [France]
 5.62.56.160/30
 5.62.61.64/30
 45.42.151.0/24
@@ -32,6 +31,5 @@ AS41653 #Aqua Ray SAS [France]
 175.45.176.0/22
 185.56.163.144/28
 210.52.109.0/24
-
 #Source: https://increditools.com/best-residential-proxies/
-AS396319#Oxylabs [United States]
+AS396319 #Oxylabs [United States]
