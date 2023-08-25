@@ -33,3 +33,4 @@ AS41653  #Aqua Ray SAS [France]
 210.52.109.0/24
 #Source: https://increditools.com/best-residential-proxies/
 AS396319 #Oxylabs [United States]
+AS200698 #Globalhost d.o.o. [Bosnia and Herzegovina]
