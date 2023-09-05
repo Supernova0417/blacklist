@@ -1,0 +1,167 @@
+#******   2023-09-05 03:32:46.331473   ******
+#/////    SoftEther VPN List    /////
+172.250.28.117
+71.197.132.22
+150.249.95.96
+153.129.103.138
+220.121.220.137
+118.41.236.148
+124.60.215.49
+59.11.97.130
+175.194.92.191
+115.37.169.95
+199.168.73.124
+173.198.248.39
+182.172.59.55
+121.136.77.112
+217.178.9.43
+210.217.116.247
+178.169.86.59
+126.92.12.161
+218.237.71.128
+111.216.252.217
+67.168.8.249
+78.81.134.149
+175.134.58.188
+119.24.148.63
+114.18.152.144
+36.13.45.161
+221.241.166.134
+220.146.143.13
+221.154.164.203
+46.17.40.206
+27.91.140.233
+220.76.219.173
+118.236.58.19
+61.78.181.101
+126.11.240.19
+42.116.174.155
+58.189.10.53
+175.198.243.119
+218.41.129.91
+59.136.200.25
+61.199.41.252
+118.241.144.186
+124.44.42.182
+90.149.79.215
+118.46.63.200
+49.228.104.42
+211.207.142.9
+175.215.147.74
+210.223.8.235
+222.237.210.43
+121.146.209.111
+222.111.218.94
+59.25.26.135
+61.76.7.70
+211.197.242.246
+49.228.104.142
+121.140.60.221
+14.36.235.96
+39.115.110.216
+14.186.17.194
+220.78.10.74
+58.237.242.200
+49.228.106.145
+222.100.235.225
+220.82.73.22
+175.196.244.82
+49.228.99.223
+114.204.178.187
+182.231.233.37
+49.143.154.90
+221.153.54.208
+211.187.241.127
+175.116.128.42
+218.52.196.13
+58.126.59.75
+220.88.193.248
+222.233.130.206
+64.201.102.149
+39.120.218.122
+176.214.3.150
+121.152.207.174
+49.228.106.122
+116.212.154.20
+
+
+#/////    Malignant ISP List    /////
+#Source: https://wiki.kldp.org/wiki.php/PrivateVPN-Range
+AS9457   #DREAMLINE CO. (드림라인(주)) [South Korea]
+AS4664   #Shinbiro Onse Telecommunication Co.,Ltd. (온세텔레콤) [South Korea]
+AS9963   #BITNET ((주)비트넷 - (구) 네트로피 (Netropy)) [South Korea]
+AS46011  #LX (엘엑스(IP주소 인터넷 서비스 업체)) [South Korea]
+AS38661  #abcle (에이비클 - (구) 퍼플스톤즈 (HCLC)) [South Korea]
+AS9844   #Duruan (두루안) [South Korea]
+AS10068  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS18301  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS10048  #ILINKKOREA (아이링크코리아(주) (INDICLUB)) [South Korea]
+AS38662  #JND Communication (주식회사 제이엔디통신 (JNDINFO)) [South Korea]
+AS38086  #IP4NETASKR IP4 Networks Inc. (아이이포넷 (IP4NET)) [South Korea]
+AS10195  #HAIonNet (하이온넷(주)) [South Korea]
+#Source: https://www.trendmicro.com/en_us/research/17/j/a-closer-look-at-north-koreas-internet.html
+AS131279 #Star Joint Venture Co. Ltd. (STAR-KP - 류경동 보통강구역) [North Korea]
+#AS9929   #CHINA UNICOM  Industrial  Internet Backbone [China]
+AS198605 #AVAST Software s.r.o. [Czech Republic]
+#AS43350  #NForce Entertainment B.V. [Netherlands]
+AS51964  #ORANGE BUSINESS SERVICES U.S. Inc. [United States]
+AS50284  #IE Goroshko Evgeniy Andreevich [Russia]
+AS41653  #Aqua Ray SAS [France]
+5.62.56.160/30
+5.62.61.64/30
+45.42.151.0/24
+46.36.203.81/32
+46.36.203.82/30
+57.73.224.0/19
+88.151.117.0/24
+172.97.82.128/25
+175.45.176.0/22
+185.56.163.144/28
+210.52.109.0/24
+#Source: https://increditools.com/best-residential-proxies/
+AS396319 #Oxylabs [United States]
+AS200698 #Globalhost d.o.o. [Bosnia and Herzegovina]
+
+
+
+#/////    ISP List of Game Hacker    /////
+AS5391   #Hrvatski Telekom d.d. [Croatia]
+AS8048   #CANTV Servicios, Venezuela [Venezuela]
+AS29357  #NATIONAL MOBILE TELECOMMUNICATIONS COMPANY K.S.C. (Ooredoo Kuwait) [Kuwait]
+AS7623   #Gyeongbuk Cable TV (주식회사 HCN 경북방송) [South Korea]
+# ↓↓↓  20230717  ↓↓↓
+AS34573  #Information-Computer Center Oberon Plus, LLC [Russia]
+AS210616 #SM Ltd. (SIBMEDVED) [Russia]
+# https://db-ip.com/country/KR
+# https://krnic.or.kr/jsp/business/management/asList.jsp
+# 상위 순위에 포함되지만 아래에 없는 ISP는 Malicious ISP list(asn1.txt)에 있다.
+#AS3559   #Korea Telecom (주식회사 KT) [South Korea]
+#AS9277   #SK Broadband Co Ltd (에스케이브로드밴드주식회사) [South Korea]
+#AS17858  #LG POWERCOMM ((주)엘지유플러스) [South Korea]
+#AS3786   #LG DACOM Corporation ((주)엘지유플러스) [South Korea]
+#AS9644   #SK Telecom (에스케이텔레콤(주)) [South Korea]
+#AS9697   #LG HelloVision Corp. (주식회사 엘지헬로비전) [South Korea]
+#AS9316   #DACOM-PUBNETPLUS ((주)엘지유플러스) [South Korea]
+AS6619   #SamsungSDS Inc. (삼성에스디에스(주)) [South Korea]
+AS9848   #Sejong Telecom (세종텔레콤 주식회사) [South Korea]
+AS10036  #DLIVE (주식회사 딜라이브) [South Korea]
+AS17853  #LGTELECOM ((주)엘지유플러스) [South Korea]
+AS4668   #LG CNS ((주) 엘지씨엔에스) [South Korea]
+AS136800 #MOACK.Co.LTD [South Korea]
+AS9694   #Seokyung Cable Television Co.. Ltd. (주식회사 서경방송) [South Korea]
+AS9286   #KINX (주식회사 케이아이엔엑스) [South Korea]
+AS4663   #ELIMNET, INC. (주식회사 엘림넷) [South Korea]
+# 20230717 한국 ISP는 대부분의 인터넷 이용자는 3대 ISP를 이용하기 때문에
+# 악성 한국 해커를 막기 위해 다른 소규모 ISP를 차단한다.
+# AS7623 경북방송도 같은 경우이다.
+# AS1237 한국과학기술연구원은 실제 해커인 경우가 있기 전까지는 절대 차단하지 않는다.
+# ↓↓↓  20230806  ↓↓↓
+AS29497  #MTS PJSC [Russia]
+AS53230  #Clean Net Telecom Ltda [Brazil]
+AS52341  #WOM S.A. [Chile]
+AS51207  #Free Mobile SAS [France]
+AS265457 #FELIPE MAURICIO DE QUEIROZ [Brazil]
+AS266159 #SIN FIBRA SERVIÇOS DE COMUNICAÇÕES LTDA [Brazil]
+AS53097  #Lizitec Telecomunicações LTDA [Brazil]
+AS265457 #FELIPE MAURICIO DE QUEIROZ [Brazil]
+AS50247  #ITCOMP sp. z o.o [Poland]
