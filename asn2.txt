@@ -42,6 +42,10 @@ AS50247  #ITCOMP sp. z o.o [Poland]
 # ↓↓↓  20230905  ↓↓↓
 AS266418 #SERVTEL EIRELI [Brazil]
 AS270814 #ZAAZ PROVEDOR DE INTERNET E TELECOMUNICACOES LTDA [Brazil]
+AS268999 #Fronteira Internet [Brazil]
+AS398497 #Riviera Utilities [United States]
+AS268853 #REALNET SERVICOS DE TELECOMUNICACOES LTDA ME [Brazil]
+AS262664 #GIGALINE INTERNET SERVICOS DE INFORMATICA LTDA [Brazil]
 # https://ipinfo.io/countries/ru
 # 20230905 악성 러시아 해커를 막기 위해 다른 소규모 MTS PJSC ASN을 차단한다.
 # AS29497 MTS PJSC는 20230806과 중복된다.
@@ -102,3 +106,14 @@ AS28832
 AS48322
 AS48796
 AS47579  # 여기까지
+# ↓↓↓  20230922  ↓↓↓
+AS53238  #Chapeco Tecnologia em Telecomunicações Ltda. [Brazil]
+AS266860 #CONEXION DIGITAL EXPRESS S.A.S. [Colombia]
+AS23246  #CUBOTELECOM CIA. LTDA. (gigaipnet.com Inc) [Venezuela]
+AS271975 #CABRERA VELEZ ELIO DAVID [Venezuela]
+AS207340 #Kruglyakov Alexandr Yurjevich [Russia]
+# ↓↓↓  20231004  ↓↓↓
+AS266181 #GOLDEN LINK [Brazil]
+AS266860 #CONEXION DIGITAL EXPRESS S.A.S. [Colombia]
+AS266766 #SOLUCIONES INSTALRED CH&C C.A. [Venezuela]
+AS50467  #Beskid Media Sp. z o.o. [Poland]
