@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 
 file_name = "blacklist.txt" # for the CUSTOM LISTS tab on https://proxycheck.io/dashboard/
-sleep_time = 24 * 60 * 60 # 초. 즉, 1일.
+sleep_time = 60 * 60 * 12 # 초. 즉, 반나절.
 url = "http://www.vpngate.net/api/iphone/"
 file_softether = "softether.txt"
 file_asn_maglinant = "asn1.txt"
@@ -31,12 +31,13 @@ def get_softether():
             try:
                 ip = garo_component[1]
                 if not ip.startswith('219.100.37.'):
-                    softether_list.append(ip)
+                    softether_list.append(ip + '/24')
                     #print('Appended 가로_요소[%d].' % count)
             except IndexError as e:
                 #print(e)
                 print("더 이상 추가할 요소가 없으므로 다음 작업을 진행합니다.")
             #count += 1
+        del response, data, garo, garo_component, ip
         print("만들어진 SoftEther VPN List의 길이: "+str(len(softether_list)-2))
         print("만들어진 SoftEther VPN List를 txt 파일로 저장합니다.")
         try:
@@ -49,6 +50,7 @@ def get_softether():
             print("파일을 저장하지 않고 계속 진행합니다.")
         global blacklist
         blacklist = softether_list
+        del softether_list
     except Exception as e:
         print("공개 SoftEther VPN 목록을 가져오는 데 실패했습니다: {}".format(e))
         print("저장된 목록을 불러옵니다.")
@@ -63,6 +65,7 @@ def get_softether():
             print("공개 SoftEther VPN 목록 없이 다음 작업을 수행합니다.")
         global blacklist
         blacklist = softether_list
+        del softether_list
 
 
 # ASN 리스트를 가져오는 함수
@@ -86,6 +89,7 @@ def get_asn():
         print("다음 작업을 수행합니다.")
     global blacklist
     blacklist = blacklist + ["",""] + ASN1 + ["",""] + ASN2 + [""]
+    del ASN1, ASN2, lines
     print("모든 리스트 취합 완료. 최종 리스트 파일을 업데이트 합니다.")
 
 
