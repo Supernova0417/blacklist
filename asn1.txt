@@ -32,5 +32,11 @@ AS41653  #Aqua Ray SAS [France]
 185.56.163.144/28
 210.52.109.0/24
 #Source: https://increditools.com/best-residential-proxies/
+#20230922 아래 목록은 residential proxy를 제공하는 업체들이다.
 AS396319 #Oxylabs [United States]
 AS200698 #Globalhost d.o.o. [Bosnia and Herzegovina]
+#AS3356   #Level 3 Parent, LLC [United States]
+#AS3549   #Level 3 Parent, LLC [United States]
+AS10753  #Level 3 Parent, LLC [United States]
+AS202818 #LUMEN TECHNOLOGIES UK LIMITED [United Kingdom]
+AS6745   #LUMEN TECHNOLOGIES UK LIMITED [United Kingdom]
