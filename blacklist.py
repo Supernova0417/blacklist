@@ -10,40 +10,39 @@ url = "http://www.vpngate.net/api/iphone/"
 file_softether = "softether.txt"
 file_asn_maglinant = "asn1.txt"
 file_asn_game_hacker = "asn2.txt"
+global blacklist
 blacklist = []
 
 
 # Softether VPN IP 리스트를 가져와서 정리 후 텍스트 파일로 저장하는 함수
 def get_softether():
     print("공개 SoftEther VPN 목록을 {}로부터 가져옵니다.".format(url))
-    softether_list = ["#******   %s   ******"%datetime.now()]
+    softether_list = ["#******   %s   ******"%datetime.now(),""]
     softether_list.append("#/////    SoftEther VPN List    /////")
-    #count = 0
     try:
         response = requests.get(url)
         data = response.text.encode('utf-8')
+        data = data.decode('utf-8')
         garo = data.strip().split("\n")
         garo = garo[2:]
         print("공개 SoftEther VPN 목록을 가져오는 데 성공했습니다.")
-        print("proxycheck.io CUSTOM LISTS에 맞게 변형합니다.")
-        for x in xrange(len(garo)):
+        #print("proxycheck.io CUSTOM LISTS에 맞게 변형합니다.")
+        for x in range(len(garo)):
             garo_component = garo[x].split(",")
             try:
                 ip = garo_component[1]
-                if not ip.startswith('219.100.37.'):
-                    softether_list.append(ip + '/24')
-                    #print('Appended 가로_요소[%d].' % count)
+                if not ip.startswith("219.100.37."):
+                    softether_list.append(ip + "/24")
             except IndexError as e:
-                #print(e)
-                print("더 이상 추가할 요소가 없으므로 다음 작업을 진행합니다.")
-            #count += 1
+                #print("더 이상 추가할 요소가 없으므로 다음 작업을 진행합니다.")
+                pass
         del response, data, garo, garo_component, ip
-        print("만들어진 SoftEther VPN List의 길이: "+str(len(softether_list)-2))
+        print(("만들어진 SoftEther VPN List의 길이: "+str(len(softether_list)-4)))
         print("만들어진 SoftEther VPN List를 txt 파일로 저장합니다.")
         try:
             with open(file_softether, 'w') as file:
                 for item in softether_list:
-                    file.write(str(item) + '\n')
+                    file.write(str(item) + "\n")
             print("공개 SoftEther VPN 목록을 성공적으로 저장하였습니다.")
         except IOError as e:
             print("파일을 저장하는 동안 오류가 발생했습니다:", e)
@@ -63,7 +62,6 @@ def get_softether():
         except IOError as e:
             print("파일을 읽는 동안 오류가 발생했습니다: {}".format(e))
             print("공개 SoftEther VPN 목록 없이 다음 작업을 수행합니다.")
-        global blacklist
         blacklist = softether_list
         del softether_list
 
@@ -88,7 +86,7 @@ def get_asn():
         print("%s 파일을 찾을 수 없습니다."%file_asn_game_hacker)
         print("다음 작업을 수행합니다.")
     global blacklist
-    blacklist = blacklist + ["",""] + ASN1 + ["",""] + ASN2 + [""]
+    blacklist = blacklist + [""] + ASN1 + [""] + ASN2 + [""]
     del ASN1, ASN2, lines
     print("모든 리스트 취합 완료. 최종 리스트 파일을 업데이트 합니다.")
 
@@ -106,10 +104,11 @@ def run_periodically():
         except Exception as e:
             print(e)
             print("%s 파일을 저장하지 못했습니다."%file_name)
-        print( '현재 완료 시각: ' + str(datetime.now()) )
-        print( '다음 실행 시각: ' + str(datetime.now()+timedelta(seconds=sleep_time)) + '까지 대기합니다.' )
-        print( '' )
+        print( "현재 완료 시각: " + str(datetime.now()) )
+        print( "다음 실행 시각: " + str(datetime.now()+timedelta(seconds=sleep_time)) + "까지 대기합니다." )
+        print( "" )
         time.sleep(sleep_time)
 
 # 주기적으로 실행하기
 run_periodically()
+

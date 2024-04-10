@@ -1,6 +1,7 @@
 #/////    Malignant ISP List    /////
 #Source: https://wiki.kldp.org/wiki.php/PrivateVPN-Range
 AS9457   #DREAMLINE CO. (드림라인(주)) [South Korea]
+AS4670   #Shinbiro [South Korea]
 AS4664   #Shinbiro Onse Telecommunication Co.,Ltd. (온세텔레콤) [South Korea]
 AS9963   #BITNET ((주)비트넷 - (구) 네트로피 (Netropy)) [South Korea]
 AS46011  #LX (엘엑스(IP주소 인터넷 서비스 업체)) [South Korea]
@@ -40,3 +41,10 @@ AS200698 #Globalhost d.o.o. [Bosnia and Herzegovina]
 AS10753  #Level 3 Parent, LLC [United States]
 AS202818 #LUMEN TECHNOLOGIES UK LIMITED [United Kingdom]
 AS6745   #LUMEN TECHNOLOGIES UK LIMITED [United Kingdom]
+#Source: https://paulmade.me/20-asn-to-block-in-2020-on-cloudflare-firewall/
+AS42570  #Nagravision SA [Switzerland]
+AS398324 #Censys, Inc. [United States]
+AS58453  #Level 30, Tower 1  [Hong Kong]
+AS17964  #Beijing Dian-Xin-Tong Network Technologies Co., Ltd. [China]
+
+AS38814  #MEGA VANTAGE INFORMATION TECHNOLOGY (HONG KONG) LIMITED [Hong Kong]
